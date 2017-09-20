@@ -1,0 +1,22 @@
+
+State Machine - |breakout|control:c0|current_state
+Name current_state.DRAW_LIVES current_state.LOAD_LIVES current_state.DRAW_SCORE2 current_state.LOAD_SCORE2 current_state.DRAW_SCORE1 current_state.LOAD_SCORE1 current_state.LOAD_EBALL current_state.LOAD_EPADDLE current_state.ERASE_PADDLE current_state.ERASE_BALL current_state.RESET current_state.UPDATE current_state.DRAW_BALL current_state.LOAD_BALL current_state.DRAW_BRICKS current_state.LOAD_BRICKS current_state.DRAW_PADDLE current_state.LOAD_PADDLE current_state.START 
+current_state.START 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+current_state.LOAD_PADDLE 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 
+current_state.DRAW_PADDLE 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 
+current_state.LOAD_BRICKS 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 
+current_state.DRAW_BRICKS 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 
+current_state.LOAD_BALL 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 
+current_state.DRAW_BALL 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 
+current_state.UPDATE 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 
+current_state.RESET 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 
+current_state.ERASE_BALL 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 
+current_state.ERASE_PADDLE 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 
+current_state.LOAD_EPADDLE 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 
+current_state.LOAD_EBALL 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 
+current_state.LOAD_SCORE1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 
+current_state.DRAW_SCORE1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+current_state.LOAD_SCORE2 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+current_state.DRAW_SCORE2 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+current_state.LOAD_LIVES 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+current_state.DRAW_LIVES 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
